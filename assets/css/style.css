@@ -1,0 +1,343 @@
+/* ==========================================================================
+   MEDISYNC AKILLI SAĞLIK SİSTEMLERİ - NİHAİ EKSİKSİZ STİL REHBERİ
+   ========================================================================== */
+
+:root {
+    --medisync-green: #2A9D8F;       
+    --medisync-navy: #264653;        
+    --medisync-bg-clinic: #F8FAFC;   
+    --medisync-white: #FFFFFF;
+    --medisync-font: 'Ubuntu', system-ui, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--medisync-bg-clinic);
+    font-family: var(--medisync-font);
+    color: var(--medisync-navy);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Gelişmiş Navigasyon Menüsü */
+.navbar {
+    background-color: var(--medisync-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0px 4px 12px rgba(38, 70, 83, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Yenilenen Gelişmiş Logo Alanı Stilleri */
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.logo-wrapper {
+    position: relative;
+    width: 24px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+/* İlaç Kapsülünün Ana Gövdesi */
+.logo-icon-main {
+    width: 12px;
+    height: 28px;
+    background-color: var(--medisync-green);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Logoya Dinamik Tıbbi Nabız/Teknoloji Hissiyatı Veren Küçük Parça */
+.logo-icon-pulse {
+    width: 8px;
+    height: 14px;
+    background-color: var(--medisync-navy);
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    border: 2px solid var(--medisync-white);
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: var(--medisync-navy);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--medisync-navy);
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--medisync-green);
+}
+
+.nav-btn {
+    background-color: var(--medisync-green);
+    color: var(--medisync-white);
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    box-shadow: 0px 4px 6px rgba(42, 157, 143, 0.2);
+    transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+    background-color: #218276;
+    transform: translateY(-1px);
+}
+
+/* Ana Karşılama Ekranı (Hero) */
+.hero-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.badge {
+    background-color: rgba(42, 157, 143, 0.1);
+    color: var(--medisync-green);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+    color: var(--medisync-navy);
+}
+
+.highlight {
+    color: var(--medisync-green);
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #5c717e;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary {
+    background-color: var(--medisync-green);
+    color: var(--medisync-white);
+    padding: 15px 32px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0px 4px 10px rgba(42, 157, 143, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--medisync-navy);
+    border: 2px solid var(--medisync-navy);
+    padding: 13px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    transform: translateY(-2px);
+}
+
+.btn-secondary:hover {
+    background-color: rgba(38, 70, 83, 0.05);
+}
+
+.hero-image-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.mockup-box {
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
+    background-color: var(--medisync-white);
+    border: 2px dashed rgba(38, 70, 83, 0.2);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8fa0ab;
+    font-weight: 500;
+    box-shadow: 0px 10px 30px rgba(38, 70, 83, 0.03);
+}
+
+/* Bölüm ve Kart Düzenleri */
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+
+.alt-bg {
+    background-color: #F1F5F9;
+    max-width: 100% !important;
+    padding-left: calc((100% - 1120px) / 2);
+    padding-right: calc((100% - 1120px) / 2);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    color: var(--medisync-navy);
+    margin: 0 0 10px 0;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #64748b;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: var(--medisync-white);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(38, 70, 83, 0.02);
+    border: 1px solid rgba(38, 70, 83, 0.05);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 30px rgba(42, 157, 143, 0.1);
+    border-color: var(--medisync-green);
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    color: var(--medisync-navy);
+    margin: 0 0 15px 0;
+}
+
+.feature-card p {
+    font-size: 15px;
+    color: #64748b;
+    margin: 0;
+}
+
+.white-card {
+    background-color: var(--medisync-white) !important;
+}
+
+/* Kurumsal İletişim Formu Tasarımı */
+.form-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--medisync-white);
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0px 8px 24px rgba(38, 70, 83, 0.04);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--medisync-navy);
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    font-family: var(--medisync-font);
+    font-size: 15px;
+    color: var(--medisync-navy);
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: var(--medisync-green);
+}
+
+.form-submit-btn {
+    width: 100%;
+    background-color: var(--medisync-green);
+    color: var(--medisync-white);
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(42, 157, 143, 0.2);
+    transition: background-color 0.2s ease;
+}
+
+.form-submit-btn:hover {
+    background-color: #218276;
+}
