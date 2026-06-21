@@ -50,7 +50,7 @@ namespace MedisyncAPI.Controllers
                 };
 
                 // Mesajın anlık düşeceği hedef e-posta kutun
-                mailMessage.To.Add("cobanmedine804@gmail.com"); 
+                mailMessage.To.Add("medisync73s@gmail.com"); 
 
                 smtpClient.Send(mailMessage); // Maili gökyüzüne fırlatıyoruz!
 
