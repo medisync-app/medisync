@@ -95,3 +95,4 @@ C:\Users\coban\OneDrive\Desktop\Medisync-Web\MedisyncAPI\obj\Debug\net10.0\refin
 C:\Users\coban\OneDrive\Desktop\Medisync-Web\MedisyncAPI\obj\Debug\net10.0\MedisyncAPI.pdb
 C:\Users\coban\OneDrive\Desktop\Medisync-Web\MedisyncAPI\obj\Debug\net10.0\MedisyncAPI.genruntimeconfig.cache
 C:\Users\coban\OneDrive\Desktop\Medisync-Web\MedisyncAPI\obj\Debug\net10.0\ref\MedisyncAPI.dll
+C:\Users\coban\OneDrive\Desktop\Medisync-Web\MedisyncAPI\obj\Debug\net10.0\MedisyncAPI.sourcelink.json
