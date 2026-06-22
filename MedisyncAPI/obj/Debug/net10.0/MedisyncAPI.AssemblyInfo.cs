@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedisyncAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bf9a523c01908abaf748908a1401c6bb4a0bb16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d67388cf334cc4aa6d48375f10c68d9830c0e46")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedisyncAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedisyncAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
